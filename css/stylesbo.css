@@ -51,8 +51,6 @@ body{
 /* NAV Style the links inside the navigation bar */
 .navbar-nav {
     color: #f6b900;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
     font-size: 18px;
     }
 
@@ -63,6 +61,13 @@ body{
     text-shadow: 2px 2px 2px black;
     letter-spacing: 1px;
 }
+
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+
 
 /* OFFERS style start here for home/shop page */
 .offers {
