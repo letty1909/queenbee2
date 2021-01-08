@@ -92,7 +92,7 @@ body{
     cursor: pointer;
     clip-path: polygon(6% 0, 94% 0, 100% 16%, 100% 86%, 94% 100%, 6% 100%, 0 86%, 0 15%);
     border: 0;
-     font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     }
 
@@ -122,7 +122,8 @@ body{
 }
 
 .headerbox-btn{
-    font-family: 'Montserrat-bold';
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     }
 
 .panel{
