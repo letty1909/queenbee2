@@ -58,7 +58,8 @@ body{
 
 .navbar-dark .navbar-nav .nav-link {
     color: #f6b900;
-    font-family: 'Montserrat-medium';
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     text-shadow: 2px 2px 2px black;
     letter-spacing: 1px;
 }
