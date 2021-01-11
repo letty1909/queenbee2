@@ -13,6 +13,7 @@ body{
 
 
 /* Main header image style */
+
 .headerimage {
     background-image: url('../home/cafecoffeeandcake.jpg');
     background-position: center center;
@@ -123,26 +124,29 @@ body{
     background-color: #D7A309;
 }
 
-.headerbox-btn{
+.headerbox-btn {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     }
 
-.panel{
+.panel {
     padding-top: 50px;
 }
-.crowncontainer{
-    padding-top: 50px;
-    padding-bottom: 30px;
+
+/* CROWN */
+
+.crowncontainer {
+    padding-top: 70px;
+    padding-bottom: 40px;
 }
 
 .welcome {
-    padding-top: 50px
+    padding-top: 50px;
 }
 
 .welcome-box {
     padding-top: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     font-size: 16px;
     background-image: linear-gradient(to bottom, rgba(220,180,10,0.3), rgba(30,10,0,0.0));
 }
@@ -159,7 +163,8 @@ a.hover {
 .bee { 
     transform: rotate(20deg);
     z-index: 1;
-    margin-top: 20px;
+    margin-top: 90px;
+    margin-bottom: 40px;
     }
 
 /* Honeycomb graphic section */
@@ -169,18 +174,18 @@ a.hover {
     background-image: url('../home/combstriptint.png');
     background-position: center center;
     background-size: cover;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-top: 60px;
     position: relative;
     margin-bottom: 40px;
-    margin-top: 30px;
+    margin-top: 40px;
     }
 
 .honeycomb_header{
     z-index: -2;
     border: 4px solid;
     border-color: blanchedalmond;
-    padding: 50px 0px 40px 0px
+    padding: 50px 0px 70px 0px
    }
 
 .button2{
@@ -344,6 +349,16 @@ ft-main-item{
     padding-top: 40px;
     }
 
+.shopcontainer { 
+    padding-top: 60px;
+    padding-bottom: 100px;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+    
+
+}
+
 /* SHOP button style */
 
 .shopbtn {
@@ -411,8 +426,8 @@ ft-main-item{
 .shophoneycomb {
     background-position: center center;
     background-size: cover;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 3px;
     position: relative;
     }
 
@@ -435,6 +450,7 @@ padding: .5rem;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* see notes below */
   grid-auto-rows: minmax(200px, auto);
   grid-gap: 2rem;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -678,7 +694,7 @@ position: absolute;
     font-size: 18px;
     text-align: center;
     margin-bottom: 100px;
-    margin-top: 30px; 
+    margin-top: 100px; 
 }
 
 .bee-course {
@@ -699,6 +715,33 @@ position: absolute;
     color: white;
 }
 
+/* NEWS video link style */
+
+.promo {
+    width: 100%;
+    height: 35rem;
+    padding-top: 1rem;
+}
+
+.promo__container {
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
+    align-content: center;
+}
+
+.promo__container-video iframe {
+    width: 40rem !important;
+    height: 30rem !important;
+    align-content: center;
+    margin: auto;
+    display: block;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
 /* NEWS Black panel */
 
 .newsblackblock {
@@ -709,15 +752,15 @@ position: absolute;
 }
 
 .newsblackblock{
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 140px;
 }
 
 .blackhoneycomb_header{
     border: 3px solid;
     border-color: #f6b900;
     border-radius: 10px;
-    padding: 30px 0px 10px 0px
+    padding: 40px 0px 40px 0px
    }
 
 
@@ -757,6 +800,12 @@ position: absolute;
     position: relative;
     height: 0;
     margin-bottom: 12rem;
+}
+
+
+.checkbox{
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 input[type=text], select, textarea {
@@ -841,7 +890,7 @@ font-family: "Montserrat," sans-serif;
 font-weight: 400;
 color: white;
 text-shadow: 2px 2px 2px #000;
-padding: 10px;
+padding: 20px;
 letter-spacing: 2px;
 }
 
@@ -863,7 +912,7 @@ font-family: "rollerscript-smooth," sans-serif;
 font-weight: 400;
 font-style: normal;
 color: #f6b900;
-padding: 5px;
+padding: 10px;
 letter-spacing: 2px;
 }
 
